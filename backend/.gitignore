@@ -1,0 +1,18 @@
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
+
+# 忽略虚拟环境
+.venv/
+
+# 忽略本地数据库
+*.db
+*.sqlite
+
+# ⚠️ 忽略存储的简历文件 (保留文件夹结构，但不传文件)
+storage/emails/*
+storage/attachments/*
+storage/database/*
+!storage/emails/.gitkeep
+!storage/attachments/.gitkeep
+!storage/database/.gitkeep
